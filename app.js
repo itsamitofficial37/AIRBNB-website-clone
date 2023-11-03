@@ -24,11 +24,11 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname,"/public")));
 
 
-// root 
+// // root 
 
-app.get("/", (req, res) => {
-  res.send("I am Root");
-});
+// app.get("/", (req, res) => {
+//   res.send("I am Root");
+// });
 
 // index routes
 
